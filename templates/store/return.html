@@ -1,0 +1,129 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="container">
+    <section class="bg-light">
+        <div class="container">
+            <div class="row px-4 px-lg-5 py-lg-4 align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="h4 text-uppercase mb-0">Returns & Refunds Policy</h1>
+                </div>
+                <div class="col-lg-6 text-lg-right">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-lg-end mb-0 px-0">
+                            <li class="breadcrumb-item"><a href="{% url 'store:home' %}">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Return</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <p>At Nimayah Jewellery, we strive to ensure your utmost satisfaction with every purchase. If you are not
+            entirely satisfied with your order, we offer hassle-free returns and refunds within a specified timeframe.
+            Please read the following guidelines carefully:</p>
+
+        <dl>
+            <dt>Eligibility for Returns and Refunds:</dt>
+            <dd>
+                <ul>
+                    <li>Items must be returned within 7 days of the purchase date.</li>
+                    <li>The item must be in its original condition, unworn, undamaged, and with all original tags and
+                        packaging intact.</li>
+                </ul>
+            </dd>
+
+            <dt>Non-Eligible Items for Returns and Refunds:</dt>
+            <dd>
+                <ul>
+                    <li>Customized or personalized items.</li>
+                    <li>Earrings (for hygiene reasons).</li>
+                    <li>Items that show signs of wear and tear or damage due to mishandling.</li>
+                </ul>
+            </dd>
+
+            <dt>Return Process:</dt>
+            <dd>
+                <ul>
+                    <li>To initiate a return, please contact our customer service team at
+                        <a href="tel:+919876543210">9876543210</a>
+                        within 7 days of receiving your order.
+                    </li>
+                    <li>Provide your order number and a brief explanation of the reason for the return.</li>
+                    <li>Once your return request is approved, we will provide you with a return authorization and
+                        instructions on how to return the item.</li>
+                </ul>
+            </dd>
+
+            <dt>Refund Process:</dt>
+            <dd>
+                <ul>
+                    <li>Refunds will be issued to the original payment method used for the purchase.</li>
+                    <li>Please allow up to 10 days for the refund to be processed after we receive the returned
+                        item.</li>
+                    <li>Shipping charges are non-refundable unless the return is due to a mistake on our part.</li>
+                </ul>
+            </dd>
+
+            <dt>Exchanges:</dt>
+            <dd>
+                <ul>
+                    <li>We currently do not offer direct exchanges. If you wish to exchange an item, please return the
+                        original item for a refund and place a new order for the desired item.</li>
+                </ul>
+            </dd>
+
+            <dt>Damaged or Defective Items:</dt>
+            <dd>
+                <ul>
+                    <li>In the rare event that you receive a damaged or defective item, please contact us immediately
+                        upon receiving the order.</li>
+                    <li>We will arrange for a replacement or issue a full refund, including shipping costs, upon return
+                        of the damaged or defective item.</li>
+                </ul>
+            </dd>
+
+            <dt>Return Shipping:</dt>
+            <dd>
+                <ul>
+                    <li>Customers are responsible for return shipping costs unless the return is due to a mistake on our
+                        part.</li>
+                    <li>We recommend using a trackable shipping service for returns, as we cannot guarantee that we will
+                        receive your returned item.</li>
+                </ul>
+            </dd>
+
+            <dt>International Returns:</dt>
+            <dd>
+                <ul>
+                    <li>International customers are subject to the same return policy; however, return shipping costs
+                        and customs fees are the responsibility of the customer.</li>
+                </ul>
+            </dd>
+
+            <dt>Final Sale Items:</dt>
+            <dd>
+                <ul>
+                    <li>Items marked as "Final Sale" are not eligible for returns or refunds unless they arrive damaged
+                        or defective.</li>
+                </ul>
+            </dd>
+
+            <dt>Contact Us:</dt>
+            <dd>
+                <ul>
+                    <li>If you have any questions or concerns regarding our Returns & Refunds Policy, please don't
+                        hesitate to contact our customer service team at [contact email/phone number].</li>
+                </ul>
+            </dd>
+        </dl>
+
+        <p>Please note that our Returns & Refunds Policy is subject to change without prior notice. We reserve the right
+            to refuse any returns that do not comply with the above guidelines. Thank you for choosing Nimayah
+            Jewellery. We appreciate your business!</p>
+    </section>
+</div>
+{% endblock content %}
